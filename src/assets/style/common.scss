@@ -1,0 +1,24 @@
+@import url(./root.scss); // root
+@import url(./flex.scss); // flex 布局
+
+h1,
+h2,
+h3,
+p,
+div,
+li,
+ul,
+article,
+nav,
+input,
+button,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+}

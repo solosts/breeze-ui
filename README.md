@@ -1,2 +1,2 @@
-# breeze-ui
-一个面向vue3的ui框架
+# Breeze UI
+一个面向vue3的UI组件库。
