@@ -1,0 +1,8 @@
+$lenSize: 32;
+
+@each $size in $lenSize {
+  .pad-lr-#{$size} {
+    padding-left: #{$size}px;
+    padding-right: #{$size}px;
+  }
+}

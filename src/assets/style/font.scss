@@ -1,0 +1,7 @@
+$fontSize: 12, 14, 16, 18, 20, 22, 24, 28;
+
+@each $size in $fontSize {
+  .f-#{$size} {
+    font-size: #{$size}px;
+  }
+}

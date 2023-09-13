@@ -11,11 +11,9 @@ export default defineConfig(({ command, mode }) => {
       vue(),
       createSvgIconsPlugin({
         iconDirs: [path.resolve(process.cwd(), 'src/assets/svg')],
-        symbolId: 'icon-[dir]-[name]'
+        // 指定symbolId格式
+        symbolId: 'svg-[name]',
       }),
-      // createSvgIconsPlugin({
-      //   iconDirs: [path.resolve(process.cwd(), 'src/assets/svg')]
-      // }),
     ],
     resolve: {
       alias: {

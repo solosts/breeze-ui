@@ -1,24 +1,20 @@
 @import url(./root.scss); // root
 @import url(./flex.scss); // flex 布局
-
-h1,
-h2,
-h3,
-p,
-div,
-li,
-ul,
-article,
-nav,
-input,
-button,
-body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+@import url(./length.scss); // 宽高 布局
+@import url(./spacing.scss); // 内外边距
+@import url(./font.scss); // 内外边距
 
 body {
   font-family: "Barlow", sans-serif;
   font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.b-pointer {
+  cursor: pointer;
+}
+
+.over-hidden {
+  overflow: hidden;
 }

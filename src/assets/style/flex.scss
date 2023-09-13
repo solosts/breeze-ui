@@ -1,0 +1,40 @@
+.flex-r-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-r-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-r-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-c-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.algin-c {
+  align-items: center;
+}
+
+$flexSize: 1, 2, 3, none;
+
+@each $size in $flexSize {
+  .flex-#{$size} {
+    flex: #{$size};
+  }
+}
+
+$gapSize: 10;
+
+@each $size in $gapSize {
+  .gap#{$size} {
+    gap: #{$size}px;
+  }
+}
