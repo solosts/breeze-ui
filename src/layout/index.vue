@@ -1,6 +1,6 @@
 <!-- 首页 -->
 <template>
-  <b-layout direction="horizontal">
+  <b-layout mode="horizontal">
     <b-layout-sider>sider</b-layout-sider>
     <b-layout>
       <b-layout-content>content</b-layout-content>

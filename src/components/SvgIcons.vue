@@ -5,15 +5,18 @@
   </svg>
 </template>
 <script setup lang='ts'>
-const props = defineProps({
+defineProps({
+  // 图标名称  svg图标名称   svg-文件名
   name: {
     type: String,
-    default: 'logo'
+    default: 'svg-logo'
   },
+  // 图标大小
   size: {
     type: Number,
     default: 16
   },
+  // 图标颜色
   color: {
     type: String,
     default: ''

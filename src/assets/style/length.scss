@@ -15,3 +15,15 @@
   width: 100vw !important;
   height: 100vh !important;
 }
+
+$lenSize: 240;
+
+@each $size in $lenSize {
+  .w#{$size} {
+    width: #{$size}px;
+  }
+
+  .h#{$size} {
+    height: #{$size}px;
+  }
+}

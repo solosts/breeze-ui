@@ -5,8 +5,7 @@
   </div>
 </template>
 <script setup lang='ts'>
-
-const props = defineProps({
+defineProps({
   // 侧边栏宽度
   width: {
     type: String,

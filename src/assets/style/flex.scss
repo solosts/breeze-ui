@@ -31,7 +31,7 @@ $flexSize: 1, 2, 3, none;
   }
 }
 
-$gapSize: 10;
+$gapSize: 10, 20, 30;
 
 @each $size in $gapSize {
   .gap#{$size} {

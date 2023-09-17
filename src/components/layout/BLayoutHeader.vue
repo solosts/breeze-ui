@@ -5,8 +5,7 @@
   </div>
 </template>
 <script setup lang='ts'>
-
-const props = defineProps({
+defineProps({
   // 高度
   height: {
     type: String,

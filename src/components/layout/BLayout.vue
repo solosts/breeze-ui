@@ -1,13 +1,13 @@
 <!-- 布局容器 -->
 <template>
-  <div class="b-layout" :style="`flex-direction:${direction == 'horizontal' ? 'row' : 'column'}`">
+  <div class="b-layout" :style="`flex-direction:${mode == 'horizontal' ? 'row' : 'column'}`">
     <slot></slot>
   </div>
 </template>
 <script setup lang='ts'>
-const props = defineProps({
+defineProps({
   // 布局排列方式   vertical：垂直排列  horizontal：水平排列
-  direction: {
+  mode: {
     type: String,
     default: 'vertical'
   }
