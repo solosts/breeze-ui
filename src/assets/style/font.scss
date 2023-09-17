@@ -1,7 +1,11 @@
-$fontSize: 12, 14, 16, 18, 20, 22, 24, 28;
+$fontSize: 12, 14, 16, 18, 20, 22, 24, 28, 32;
 
 @each $size in $fontSize {
   .f-#{$size} {
     font-size: #{$size}px;
   }
+}
+
+.text-c {
+  text-align: center;
 }

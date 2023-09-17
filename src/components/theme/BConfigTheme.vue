@@ -32,6 +32,9 @@ defineProps<{ theme: 'light' | 'dark' }>()
 
   /* 背景颜色 */
   --background-color-base: #F5F7FA;
+
+  color: var(--color-text-primary);
+  background-color: var(--background-color-base);
 }
 
 .theme-dark {
@@ -56,5 +59,8 @@ defineProps<{ theme: 'light' | 'dark' }>()
 
   /* 背景颜色 */
   --background-color-base: #000;
+
+  color: var(--color-text-primary);
+  background-color: var(--background-color-base);
 }
 </style>

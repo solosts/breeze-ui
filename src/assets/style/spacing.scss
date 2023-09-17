@@ -1,8 +1,25 @@
-$lenSize: 32;
+$lenSize: 20, 32;
 
 @each $size in $lenSize {
+  .mar-t-#{$size} {
+    margin-top: #{$size}px;
+  }
+
+  .mar-b-#{$size} {
+    margin-bottom: #{$size}px;
+  }
+
+
   .pad-lr-#{$size} {
     padding-left: #{$size}px;
     padding-right: #{$size}px;
+  }
+
+  .pad-t-#{$size} {
+    padding-top: #{$size}px;
+  }
+
+  .pad-b-#{$size} {
+    padding-bottom: #{$size}px;
   }
 }
